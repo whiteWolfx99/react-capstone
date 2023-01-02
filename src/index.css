@@ -1,15 +1,22 @@
 body {
   margin: 0;
+  background-color: #000;
   font-family: "Fira Sans", sans-serif;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 1rem;
+  background-color: #000;
+  box-shadow: 0 12px 13px rgba(255, 255, 255, 0.1);
+  color: #fff;
+  gap: 8px;
+}
+
+.navbar img {
+  width: 30px;
+  height: 30px;
 }
 
 .link_list {
@@ -26,4 +33,69 @@ body {
 
 .link:hover {
   color: #f00;
+}
+
+.list_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list_item_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px 0 10px 0;
+  gap: 10px;
+}
+
+.list_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.list_name {
+  display: flex;
+  gap: 10px;
+  color: #fff;
+}
+
+.list_price {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #f00;
+}
+
+.list_symbol {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(255, 196, 0);
+}
+
+/* media query */
+
+@media (max-width: 385px) {
+  .list_item_grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 650px) {
+  .list_item_grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 850px) {
+  .list_item_grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
 }
