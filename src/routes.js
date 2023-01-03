@@ -1,11 +1,17 @@
-import { Routes, Route } from 'react-router-dom';
-import ListPage from './Pages/ListPage';
-import SinglePage from './Pages/SinglePage';
+import { lazy, Suspense } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+const ListPage = lazy(() => import('./Pages/ListPage'));
+const SinglePage = lazy(() => import('./Pages/SinglePage'));
 
 const Main = () => (
-  <Routes>
-    <Route path="/" element={<ListPage />} />
-    <Route path="/Single" element={<SinglePage />} />
-  </Routes>
+  <BrowserRouter>
+    <Suspense fallback={<div className="fallback">Loading...</div>}>
+      <Routes>
+        <Route path="/" element={<ListPage />} />
+        <Route path="/:id" element={<SinglePage />} />
+      </Routes>
+    </Suspense>
+  </BrowserRouter>
 );
 export default Main;

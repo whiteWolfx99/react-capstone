@@ -1,7 +1,21 @@
 body {
   margin: 0;
+  padding: 10px;
   background-color: #000;
   font-family: "Fira Sans", sans-serif;
+}
+
+span {
+  color: rgb(255, 196, 0);
+}
+
+.fallback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
 }
 
 .navbar {
@@ -49,6 +63,7 @@ body {
 }
 
 .list_card {
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,9 +72,21 @@ body {
   border: 1px solid #fff;
   box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
   color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-.list_name {
+.link_listes_card {
+  text-decoration: none;
+}
+
+.list_card img {
+  width: 70px;
+  height: 70px;
+}
+
+.list_name,
+.single_name {
   display: flex;
   gap: 10px;
   color: #fff;
@@ -77,25 +104,189 @@ body {
   color: rgb(255, 196, 0);
 }
 
+.search_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 0 0 0;
+  width: 415px;
+}
+
+.search_input input {
+  width: 90%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  color: #fff;
+  background-color: #000;
+}
+
+.search_input img {
+  width: 50px;
+  height: 50px;
+}
+
+.list_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.list_button:hover {
+  color: #f00;
+}
+
+.single_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.single_item img {
+  width: 100px;
+  height: 100px;
+}
+
+.single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 10px 0;
+  color: #fff;
+}
+
+.url_link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.url_link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.going_back {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px 0 0 0;
+}
+
+.going_back button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgb(255, 196, 0);
+  color: #000;
+  background-color: rgb(255, 196, 0);
+  cursor: pointer;
+}
+
+.url_link button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 20px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.going_back button:hover {
+  color: #f00;
+}
+
+.going_back img {
+  padding-right: 20px;
+  width: 25px;
+  height: 25px;
+}
+
 /* media query */
 
-@media (max-width: 385px) {
+@media (max-width: 500px) {
   .list_item_grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
+
+  .search_input {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .search_input img {
+    width: 35px;
+    height: 35px;
+  }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 780px) {
   .list_item_grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
+
+  .list_card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+  }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1047px) {
   .list_item_grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+  }
+
+  .list_card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 1330px) {
+  .list_item_grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+
+  .list_card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 1580px) {
+  .list_item_grid {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
+
+  .list_card:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
   }
 }

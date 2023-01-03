@@ -1,5 +1,5 @@
 import React from 'react';
-import Bitcoin from '../Images/Bitcoin.svg.png';
+import Bitcoin from '../Assets/Bitcoin.svg.png';
 
 const Navbar = () => (
   <nav className="navbar">
