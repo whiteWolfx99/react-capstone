@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import LeftArrow from '../Assets/LeftArrow.svg';
 
-function GoingBack() {
+export default function GoingBack() {
   const navigate = useNavigate();
 
   const goBack = () => {
@@ -18,5 +18,3 @@ function GoingBack() {
     </div>
   );
 }
-
-export default GoingBack;

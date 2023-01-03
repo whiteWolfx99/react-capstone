@@ -9,6 +9,7 @@ const SearchInput = ({ search, handleChange }) => (
       placeholder="Search"
       value={search}
       onChange={handleChange}
+      icon="search"
     />
     <img src={Search} alt="search" />
   </div>
