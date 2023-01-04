@@ -8,7 +8,7 @@ const Main = () => (
   <BrowserRouter>
     <Suspense fallback={<div className="fallback">Loading...</div>}>
       <Routes>
-        <Route path="/react-capstone" element={<ListPage />} />
+        <Route path="/react-capstone/" element={<ListPage />} />
         <Route path="/react-capstone/:id" element={<SinglePage />} />
       </Routes>
     </Suspense>
