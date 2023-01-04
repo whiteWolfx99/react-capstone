@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-capstone/static/css/main.174c04e6.css",
-    "main.js": "/react-capstone/static/js/main.42f1e8a4.js",
+    "main.js": "/react-capstone/static/js/main.27c6474e.js",
     "static/js/863.fe1879e3.chunk.js": "/react-capstone/static/js/863.fe1879e3.chunk.js",
     "static/js/190.39ce8446.chunk.js": "/react-capstone/static/js/190.39ce8446.chunk.js",
     "static/media/Bitcoin.svg.png": "/react-capstone/static/media/Bitcoin.svg.021f5545eb2bdda1a55f.png",
@@ -9,12 +9,12 @@
     "index.html": "/react-capstone/index.html",
     "static/media/LeftArrow.svg": "/react-capstone/static/media/LeftArrow.7da57e6b629b183ec29e0c4210385bd3.svg",
     "main.174c04e6.css.map": "/react-capstone/static/css/main.174c04e6.css.map",
-    "main.42f1e8a4.js.map": "/react-capstone/static/js/main.42f1e8a4.js.map",
+    "main.27c6474e.js.map": "/react-capstone/static/js/main.27c6474e.js.map",
     "863.fe1879e3.chunk.js.map": "/react-capstone/static/js/863.fe1879e3.chunk.js.map",
     "190.39ce8446.chunk.js.map": "/react-capstone/static/js/190.39ce8446.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.174c04e6.css",
-    "static/js/main.42f1e8a4.js"
+    "static/js/main.27c6474e.js"
   ]
 }
