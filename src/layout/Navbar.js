@@ -1,14 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Bitcoin from '../Assets/Bitcoin.svg.png';
 
 const Navbar = () => (
   <nav className="navbar">
-    <h1>Movies</h1>
-
-    <div className="link_list">
-      <Link className="link" to="/">List</Link>
-      <Link className="link" to="/single">Single</Link>
-    </div>
+    <img src={Bitcoin} alt="logo" />
+    <h1>cryptocurrency</h1>
   </nav>
 );
 
