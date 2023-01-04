@@ -29,7 +29,7 @@ function ListPage() {
           <SearchInput search={search} handleChange={handleChange} />
           <div className="list_item_grid">
             {filter.map((item) => (
-              <Link className="link_listes_card" to={`/${item.id}`} key={item.id}>
+              <Link className="link_listes_card" to={`/react-capstone/${item.id}`} key={item.id}>
                 <label className="list_card" key={item.id} htmlFor={item.id}>
                   <img src={item.icon} alt={item.id} />
                   <div className="list_name">
