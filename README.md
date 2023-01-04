@@ -85,21 +85,12 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **[Displays a list of all available SpaceX rockets]**
-- **[Book each rocket by clicking the reservation button or cancel the previously made booking.]**
-- **[The My Profile section displays all reserved rockets and space missions.]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo](https://whitewolfx99.github.io/react-capstone/)
+- [Live Video](https://www.loom.com/share/41d1766b5e7945e9bf1e679d1310f808)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,15 +185,6 @@ Example command:
 - GitHub: [@githubhandle](https://github.com/whiteWolfx99)
 - Twitter: [@twitterhandle](#)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hevar-hoshang-9a7a68237/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Implement Setup]**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
