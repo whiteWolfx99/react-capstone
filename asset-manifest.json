@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.174c04e6.css",
-    "main.js": "/static/js/main.41d3afb6.js",
-    "static/js/863.fe1879e3.chunk.js": "/static/js/863.fe1879e3.chunk.js",
-    "static/js/190.39ce8446.chunk.js": "/static/js/190.39ce8446.chunk.js",
-    "static/media/Bitcoin.svg.png": "/static/media/Bitcoin.svg.021f5545eb2bdda1a55f.png",
-    "static/media/Search.png": "/static/media/Search.a1622a47113310c2ffaa.png",
-    "index.html": "/index.html",
-    "static/media/LeftArrow.svg": "/static/media/LeftArrow.7da57e6b629b183ec29e0c4210385bd3.svg",
-    "main.174c04e6.css.map": "/static/css/main.174c04e6.css.map",
-    "main.41d3afb6.js.map": "/static/js/main.41d3afb6.js.map",
-    "863.fe1879e3.chunk.js.map": "/static/js/863.fe1879e3.chunk.js.map",
-    "190.39ce8446.chunk.js.map": "/static/js/190.39ce8446.chunk.js.map"
+    "main.css": "/react-capstone/static/css/main.174c04e6.css",
+    "main.js": "/react-capstone/static/js/main.695d8152.js",
+    "static/js/863.fe1879e3.chunk.js": "/react-capstone/static/js/863.fe1879e3.chunk.js",
+    "static/js/190.39ce8446.chunk.js": "/react-capstone/static/js/190.39ce8446.chunk.js",
+    "static/media/Bitcoin.svg.png": "/react-capstone/static/media/Bitcoin.svg.021f5545eb2bdda1a55f.png",
+    "static/media/Search.png": "/react-capstone/static/media/Search.a1622a47113310c2ffaa.png",
+    "index.html": "/react-capstone/index.html",
+    "static/media/LeftArrow.svg": "/react-capstone/static/media/LeftArrow.7da57e6b629b183ec29e0c4210385bd3.svg",
+    "main.174c04e6.css.map": "/react-capstone/static/css/main.174c04e6.css.map",
+    "main.695d8152.js.map": "/react-capstone/static/js/main.695d8152.js.map",
+    "863.fe1879e3.chunk.js.map": "/react-capstone/static/js/863.fe1879e3.chunk.js.map",
+    "190.39ce8446.chunk.js.map": "/react-capstone/static/js/190.39ce8446.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.174c04e6.css",
-    "static/js/main.41d3afb6.js"
+    "static/js/main.695d8152.js"
   ]
 }
