@@ -2,7 +2,7 @@
   "name": "react-capstone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://whiteWolfx99.github.io/react-capstone",
+  "homepage": "http://whiteWolfx99.github.io/react-capstone/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
